@@ -138,7 +138,7 @@ d3.csv("../data/burroughdata.csv", function(csv_data){
 const svg = d3
   .select("#map__container")
   .append("svg")
-  .attr("height", "800px")
+  .attr("height", "700px")
   .attr("width", "auto");
  // .attr("style","border:1px solid red;text-align:center;padding:0 50px 0 0");
 
