@@ -16,7 +16,7 @@
  *   https://groups.google.com/forum/#!topic/d3-js/sg4pnuzWZUU
  */
 
-const WIDTH = window.innerWidth;
+const WIDTH = 800; 
 const HEIGHT = window.innerHeight;
 const ZOOM_THRESHOLD = [0.3, 7];
 const OVERLAY_MULTIPLIER = 10;
@@ -55,7 +55,7 @@ function mouseOutHandler(d, i) {
 }
 
 function clickHandler(d, i) {
-  d3.select("#map__text").text(`Borough: ${d.properties.name}`)
+  d3.select("#map__text").text(`${d.properties.name}`)
 }
 
 function clickToZoom(zoomStep) {
@@ -139,7 +139,8 @@ const svg = d3
   .select("#map__container")
   .append("svg")
   .attr("height", "800px")
-  .attr("width", "100%");
+  .attr("width", "auto");
+ // .attr("style","border:1px solid red;text-align:center;padding:0 50px 0 0");
 
 const g = svg.call(zoom).append("g");
 

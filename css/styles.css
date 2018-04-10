@@ -8,7 +8,9 @@
 }
 
 #map__container {
-  margin:auto;
+  margin-left:100px;
+  margin-right:10px;
+  padding:0 10px 0 0;
 }
 
 #yeardropdown {

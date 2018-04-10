@@ -26,10 +26,9 @@
 </head>
 <body>
 <div id="chart1"> 
-
-     <div id="map__container">
-        <h1 align="center">Top 50 places with fatal accidents by year</h1>
-        <h3 id="map__text">Borough: </h3>
+     <h1 align="center">Top 50 places with fatal accidents by year</h1>
+     <div style="float:left">
+        <h3 id="map__text"></h3>
         <div id="btn-zoom" float="right">
           <i id="btn-zoom--in" class="fa fa-search-plus fa-2x" aria-hidden="true"></i>
           <i id="btn-zoom--out"class="fa fa-search-minus fa-2x" aria-hidden="true"></i>
@@ -38,6 +37,9 @@
         <div> 
            <button class="button" onclick="$('#popup').w2popup()">Usage</button> 
         </div> 
+     </div>
+
+     <div id="map__container">
      </div>
      <script>document.body.style.cursor = "wait"</script>  
      <script src="js/d3-tip.js"></script>

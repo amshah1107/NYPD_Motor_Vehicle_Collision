@@ -1,0 +1,36 @@
+Year,BOROUGH,PersonsInjured,PersonsKilled,PedistriansInjured,PedistriansKilled,CyclistInjured,CyclistKilled,MotoristInjured,MotoristKilled,TopContributingFactor,TotalAccidents
+2013,BRONX,6259,32,1672,25,295,1,4292,6,Driver Inattention/Distraction,19767
+2017,STATEN ISLAND,1502,8,246,4,47,0,1248,5,Driver Inattention/Distraction,6012
+2018,BROOKLYN,2057,7,556,5,113,1,1388,1,Driver Inattention/Distraction,7952
+2017,QUEENS,9688,32,1920,20,686,2,7270,10,Driver Inattention/Distraction,37177
+2018,STATEN ISLAND,192,2,30,0,1,0,161,2,Driver Inattention/Distraction,1032
+2016,BROOKLYN,10693,26,2393,15,1055,5,7054,5,Driver Inattention/Distraction,39062
+2013,QUEENS,10685,71,2325,45,721,1,7639,25,Driver Inattention/Distraction,39308
+2015,MANHATTAN,6528,22,2287,18,1191,1,3050,3,Driver Inattention/Distraction,42514
+2017,BROOKLYN,11659,36,2723,18,1294,8,7920,11,Driver Inattention/Distraction,43611
+2017,MANHATTAN,5363,28,1783,20,949,7,2787,3,Driver Inattention/Distraction,30015
+2012,STATEN ISLAND,1245,11,201,3,27,0,1017,8,Driver Inattention/Distraction,4902
+2012,MANHATTAN,3867,21,1390,17,553,1,1924,3,Driver Inattention/Distraction,20718
+2014,BROOKLYN,14244,67,3347,42,1409,4,9487,21,Driver Inattention/Distraction,47756
+2018,QUEENS,1670,11,430,7,45,0,1195,4,Driver Inattention/Distraction,7125
+2012,QUEENS,5506,28,1172,15,402,2,3932,11,Driver Inattention/Distraction,19137
+2016,BRONX,4639,15,1088,10,241,1,3223,4,Driver Inattention/Distraction,17502
+2016,MANHATTAN,5055,22,1738,18,816,3,2422,1,Driver Inattention/Distraction,30484
+2014,QUEENS,10031,52,2192,26,714,6,7122,20,Driver Inattention/Distraction,41018
+2014,MANHATTAN,6906,35,2585,25,1155,5,3166,5,Driver Inattention/Distraction,41259
+2015,QUEENS,10423,51,2004,25,764,6,7655,20,Driver Inattention/Distraction,42483
+2015,BRONX,5626,26,1372,11,363,3,3891,12,Driver Inattention/Distraction,21251
+2012,BROOKLYN,7525,33,1836,19,878,2,4805,12,Driver Inattention/Distraction,23302
+2018,BRONX,995,2,276,0,20,0,699,2,Driver Inattention/Distraction,3875
+2013,MANHATTAN,7584,39,2811,29,1130,2,3643,8,Driver Inattention/Distraction,41578
+2012,BRONX,2878,17,753,8,155,1,1970,8,Driver Inattention/Distraction,9510
+2018,MANHATTAN,925,1,379,1,137,0,409,0,Driver Inattention/Distraction,5227
+2013,BROOKLYN,15410,67,3641,30,1539,4,10230,33,Driver Inattention/Distraction,47013
+2015,STATEN ISLAND,1547,12,236,5,30,1,1281,6,Driver Inattention/Distraction,6343
+2014,STATEN ISLAND,1577,10,230,5,39,0,1308,5,Driver Inattention/Distraction,6614
+2016,QUEENS,8436,18,1688,10,504,1,6151,7,Driver Inattention/Distraction,33187
+2013,STATEN ISLAND,2111,4,316,3,35,0,1760,1,Driver Inattention/Distraction,8295
+2016,STATEN ISLAND,1158,6,188,1,32,1,934,4,Driver Inattention/Distraction,5522
+2017,BRONX,5552,15,1347,7,320,2,4006,6,Driver Inattention/Distraction,20393
+2014,BRONX,5886,19,1505,10,356,1,4025,8,Driver Inattention/Distraction,19685
+2015,BROOKLYN,13705,67,3028,46,1513,4,9164,17,Driver Inattention/Distraction,50841
