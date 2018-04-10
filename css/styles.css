@@ -1,0 +1,26 @@
+#chart1 {
+  margin-right: 150px;
+  margin-left: 150px;
+  height: 1000px;
+  border-style: solid;
+  border-width: 2px;
+  background-color:LightYellow;
+}
+
+#map__container {
+  margin:auto;
+}
+
+#yeardropdown {
+  position:relative;
+  top:14px; 
+}
+
+.button {
+   position:relative;
+   top:50px;
+   border: 1px outset #b37d00 ;
+   background-color: Green;
+   color: white;
+}
+

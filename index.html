@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://rawgit.com/vitmalina/w2ui/master/dist/w2ui.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://rawgit.com/vitmalina/w2ui/master/dist/w2ui.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/tooltip.css">
+  <link rel="stylesheet" href="css/tooltip2.css">
+  <title>NYPD Traffic Collision Visualization</title>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62809346-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
+    gtag('config', 'UA-62809346-2');
+  </script>
+ 
+</head>
+<body>
+<div id="chart1"> 
+
+     <div id="map__container">
+        <h1 align="center">Top 50 places with fatal accidents by year</h1>
+        <h3 id="map__text">Borough: </h3>
+        <div id="btn-zoom" float="right">
+          <i id="btn-zoom--in" class="fa fa-search-plus fa-2x" aria-hidden="true"></i>
+          <i id="btn-zoom--out"class="fa fa-search-minus fa-2x" aria-hidden="true"></i>
+        </div>
+        <div id = "yeardropdown"></div>
+        <div> 
+           <button class="button" onclick="$('#popup').w2popup()">Usage</button> 
+        </div> 
+     </div>
+     <script>document.body.style.cursor = "wait"</script>  
+     <script src="js/d3-tip.js"></script>
+     <script src="js/nyboroughs.js?"></script>
+     <script src="js/topaccidentsbyyear.js?n=1"></script>
+     <script src="js/plottopaccidents.js?n=1"></script>
+     <script>document.body.style.cursor = "default"</script>  
+
+   <div id="popup" style="display: none; width: 650px; height: 200px; overflow: auto">
+       <div rel="title">
+        User Interaction 
+       </div>
+       <div rel="body">
+           <div style="padding: 10; font-size: 11px; line-height: 150%;"> </div>
+            <div>
+             This is the visualization of the top 50 fatal accidents points in New York by year. The map delineates the buroughs (districts)
+             of New York. <br /> 
+             The intention of this visualization is to give the user a high level picture of the dangerous spots in New York. The map is initialized
+             with the data of 2012. As the user goes through the years, the additional data gets appended to the visualization. This provides a 
+             complete picture of the dangerous spots in New York, the area where there are multiple accidents over the years. <br/> 
+
+             Visualization Interactions: <br/>
+                1. The map can be zoomed in and out by double clicking or mouse wheel. <br/> 
+                2. The map can be zoomed in and out by the dedicated + and - button on the screen <br/>
+                3. Hovering over the accident image, gives details about the spot of accident via tooltip <br/>
+                4. Hovering over the burrough gives details about the burrough via tooltip <br/>
+                5. The map can be moved around. <br/>  
+           </div>
+       </div>
+  </div>
+</div>
+
+</body>
+</html>
