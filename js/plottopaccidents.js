@@ -139,7 +139,7 @@ const svg = d3
   .select("#map__container")
   .append("svg")
   .attr("height", "700px")
-  .attr("width", "auto");
+  .attr("width", "1000px");
  // .attr("style","border:1px solid red;text-align:center;padding:0 50px 0 0");
 
 const g = svg.call(zoom).append("g");
@@ -182,6 +182,7 @@ const color = d3.scaleOrdinal(d3.schemeCategory20c.slice(1, 4));
 
 renderMap(boroughs);
 
+renderStreetMap();
 console.log("Completed")
 
 function renderMap(root) {
@@ -254,6 +255,10 @@ function updateGraph(accidents, selectedYear) {
 */
 
 }
+
+
+
+
 
 function initialGraph(accidents, selectedYear) {
    accidents.selectAll( "image" )

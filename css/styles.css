@@ -7,6 +7,15 @@
   background-color:LightYellow;
 }
 
+#chart2 {
+  margin-right: 150px;
+  margin-left: 150px;
+  height: 500px;
+  border-style: solid;
+  border-width: 2px;
+  background-color:LightGreen;
+}
+
 #map__container {
   margin-left:100px;
   margin-right:10px;
@@ -26,3 +35,9 @@
    color: white;
 }
 
+/*
+#"map_container2" { 
+   height: 180; 
+}
+
+*/
